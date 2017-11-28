@@ -19,6 +19,7 @@
             </list>
         </property>
     </bean>
+    <!--读取配置文件  -->
     <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PreferencesPlaceholderConfigurer">
         <property name="properties" ref="configProperties"/>
         <property name="ignoreUnresolvablePlaceholders" value="true"/>
