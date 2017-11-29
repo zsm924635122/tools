@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="tools" />
+        <module name="xiaomin-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="tools" target="1.5" />
+      <module name="xiaomin-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
