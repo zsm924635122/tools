@@ -27,7 +27,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="tools" target="1.5" />
+      <module name="tools" target="1.8" />
       <module name="xiaomin-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
